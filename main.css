@@ -114,4 +114,9 @@ main {
 .card .image img {
     max-width: 300px;
     max-height: 350px;
+    transition: 2s;
+}
+
+.card .image img:hover {
+    transform: scale(1.3);
 }
